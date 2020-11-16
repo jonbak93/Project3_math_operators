@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calculator</title>
+    <script src="JS/main.js"></script>
+</head>
+
+<body style="background-color: aquamarine; font-size: 50px; color: coral;">
+    <center>
+
+        <p style="color: coral;">
+            Addition, Subtract, Multiply or Divide.
+            <br>
+
+
+        </p>
+        <p style="color: black;">
+            <form>
+                Enter first number:
+                <br>
+                <input type="text" id="firstNumber" value=" ">
+                <br>
+                <br> Enter second number:
+                <br>
+                <input type="text" id="secondNumber" value=" ">
+                <br>
+
+                <input type="button" onClick="addBy()" value="Addition" />
+                <input type="button" onClick="subtractBy()" value="Subtract" />
+                <input type="button" onClick="multiplyBy()" value="Multiply" />
+                <input type="button" onClick="divideBy()" value="Divide" />
+                <input type="button" onClick="modulus()" value="Modulus" />
+            </form>
+
+            <p>The Result is: <br>
+                <span id="result"></span>
+            </p>
+
+
+            <p>The increment value is: <br>
+                <input type="button" onClick="increment()" value="Get Increment Value of 7 is:" />
+
+                <span id="increment"></span>
+            </p>
+
+            <p>The decrement value is: <br>
+                <input type="button" onClick="decrement()" value="Get Decrement Value of 7 is:" />
+                <span id="decrement"></span>
+            </p>
+
+        </p>
+
+
+
+    </center>
+</body>
+
+</html>
